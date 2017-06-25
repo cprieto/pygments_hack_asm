@@ -1,6 +1,6 @@
 # Nand2Tetris Hack Assembler
 
-Pygments lexer for [Nand2Tetris Hack Assembler](http://www.nand2tetris.org/chapters/chapter%2004.pdf) language.
+[Pygments](http://pygments.org/) lexer for [Nand2Tetris Hack Assembler](http://www.nand2tetris.org/chapters/chapter%2004.pdf) language.
 
 Part of the languages used/developed in the [Building a Modern Computer from First Principles](http://www.nand2tetris.org/) book.
 
