@@ -1,8 +1,13 @@
 from setuptools import setup, find_packages
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setup(name='pygments-hackasm-lexer',
-      version='0.1',
+      version='0.2',
       description='Pygments lexer for the Nand2Tetris Hack Assembler',
+      long_description=readme(),
       packages = find_packages(),
       url='https://github.com/cprieto/pygments_hack_asm',
       author='Cristian Prieto',

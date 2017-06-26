@@ -1,6 +1,9 @@
 Nand2Tetris Hack Assembler lexer
 ================================
 
+.. image:: https://badge.fury.io/py/pygments-hackasm-lexer.svg
+    :target: https://badge.fury.io/py/pygments-hackasm-lexer
+
 `Pygments`_ lexer for `Nand2Tetris Hack Assembler`_ language.
 
 Part of the languages used/developed in the `Building a Modern Computer from First Principles`_ book.
