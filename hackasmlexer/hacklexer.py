@@ -2,12 +2,6 @@ import re
 from pygments.lexer import RegexLexer, include
 from pygments.token import *
 
-__all__ = ['HackAsmLexer']
-
-REGISTERS = [
-    'A', 'D', 'M'
-]
-
 class HackAsmLexer(RegexLexer):
     name = 'Hack Assembler'
     aliases = ['hack_asm']
