@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='pygments-hackasm-lexer',
-      version='0.2',
+      version='0.3',
       description='Pygments lexer for the Nand2Tetris Hack Assembler',
       long_description=readme(),
       packages = find_packages(),
