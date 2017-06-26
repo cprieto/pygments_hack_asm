@@ -9,7 +9,7 @@ Part of the languages used/developed in the [Building a Modern Computer from Fir
 The name of the lexer is `hack_asm` so you can call it from `pygmentize` like this:
 
 ```
-pygmentize l hack_asm -f html -O full test.asm 
+pygmentize -l hack_asm -f html -O full test.asm 
 ```
 
 The recognize extension is `.asm` but it is as well used by many other lexers (like, you know, other assemblers), so I recommend passing directly the lexer name.
