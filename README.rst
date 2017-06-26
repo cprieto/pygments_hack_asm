@@ -1,5 +1,5 @@
-Nand2Tetris Hack Assembler
-==========================
+Nand2Tetris Hack Assembler lexer
+================================
 
 `Pygments`_ lexer for `Nand2Tetris Hack Assembler`_ language.
 
