@@ -24,5 +24,8 @@ setup(name='pygments-hackasm-lexer',
           'Programming Language :: Python :: 3',
           'Topic :: Utilities',
           'License :: OSI Approved :: MIT License',
-          'Environment :: Plugins'])
-
+          'Environment :: Plugins'],
+      entry_points = {
+          'pygments.lexers': [
+              'hack_asm=hackasmlexer:HackAsmLexer']
+          })
